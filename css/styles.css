@@ -26,6 +26,7 @@ body {
     grid-auto-columns: 1fr;
     grid-template-rows: repeat(3, 445px);
     margin: 7rem auto;
+    min-width: 330px;
     width: 330px;
 }
 .column_sedans {
@@ -89,4 +90,20 @@ button:hover {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+@media (min-width: 768px) {
+    .main_content {
+        grid-template-rows: 500px;
+        grid-template-columns: repeat(3, 300px);
+        place-content: center;
+    }
+    .column_sedans {
+        border-radius: 10px 0 0 10px;
+    }
+    .column_luxury {
+        border-radius: 0 10px 10px 0;
+    }
+    button {
+        margin-top: 55px;
+    }
 }
