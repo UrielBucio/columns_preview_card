@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/3-column-preview-card-component-css-grid-fykHzerjPY)
 - Live Site URL: [Live Site URL](https://column-preview-card-ub.netlify.app/)
 
 ## My process
